@@ -1,0 +1,105 @@
+.pokedex-container {
+  text-align: center;
+  background: linear-gradient(135deg, #ff595e, #ffca3a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .welcome-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .exit-btn {
+      padding: 8px 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background: #d62828;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: #a61b1b;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    input {
+      padding: 10px;
+      width: 250px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      font-size: 1rem;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      outline: none;
+      transition: 0.3s;
+
+      &:focus {
+        border-color: #ffca3a;
+        background: #fff;
+      }
+    }
+
+    .search-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background: #1982c4;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: #023e8a;
+        transform: scale(1.05);
+      }
+    }
+
+    select {
+      padding: 8px;
+      font-size: 1rem;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.8);
+      border: 2px solid #fff;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}
